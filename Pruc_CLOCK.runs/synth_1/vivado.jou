@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Apr  9 00:58:22 2020
+# Process ID: 2152
+# Current directory: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/synth_1
+# Command line: vivado.exe -log Seven_seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seven_seg.tcl
+# Log file: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/synth_1/Seven_seg.vds
+# Journal file: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Seven_seg.tcl -notrace
