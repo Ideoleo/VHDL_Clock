@@ -67,8 +67,6 @@ end process;
 process(LED_activating_counter)
 begin
 
-LED_BCD <= "1111";
-
     case LED_activating_counter is
     when "00" =>
         Anode_Activate <= "0111"; 
