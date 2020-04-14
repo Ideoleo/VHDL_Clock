@@ -1,83 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1586386698">
-  <File Type="BITSTR-BMM" Name="Seven_seg_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Seven_seg_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Seven_seg_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="Seven_seg_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="Seven_seg.tcl"/>
-  <File Type="OPT-TIMING" Name="Seven_seg_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="Seven_seg_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="Seven_seg_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="Seven_seg_reports.tcl"/>
-  <File Type="OPT-DRC" Name="Seven_seg_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="Seven_seg.hwdef"/>
-  <File Type="PWROPT-DCP" Name="Seven_seg_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="Seven_seg_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Seven_seg_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="Seven_seg_placed.dcp"/>
-  <File Type="PLACE-IO" Name="Seven_seg_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Seven_seg_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="Seven_seg_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="Seven_seg_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="Seven_seg_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Seven_seg_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="Seven_seg_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="Seven_seg_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Seven_seg_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="Seven_seg.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Seven_seg_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="Seven_seg_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Seven_seg_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="Seven_seg.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="Seven_seg_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Seven_seg_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Seven_seg_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Seven_seg_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="Seven_seg_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="Seven_seg_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="Seven_seg_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="Seven_seg.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Seven_seg_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Seven_seg_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Seven_seg_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Seven_seg_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="Seven_seg_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="Seven_seg_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="Seven_seg_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="Seven_seg_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="Seven_seg_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Seven_seg_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="Seven_seg_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="Seven_seg_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="Seven_seg_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="Seven_seg_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Seven_seg_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Seven_seg_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Seven_seg_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Seven_seg_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Seven_seg_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Seven_seg_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Seven_seg_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="Seven_seg.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Seven_seg_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="Seven_seg.rbt"/>
-  <File Type="BITSTR-NKY" Name="Seven_seg.nky"/>
-  <File Type="PDI-FILE" Name="Seven_seg.pdi"/>
-  <File Type="RCFI_FILE" Name="Seven_seg.rcfi"/>
-  <File Type="CFI_FILE" Name="Seven_seg.cfi"/>
-  <File Type="RNPI_FILE" Name="Seven_seg.rnpi"/>
-  <File Type="NPI_FILE" Name="Seven_seg.npi"/>
-  <File Type="RBD_FILE" Name="Seven_seg.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1586879402">
+  <File Type="BITSTR-BMM" Name="Digit_Clock_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Digit_Clock_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Digit_Clock_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Digit_Clock_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Digit_Clock.tcl"/>
+  <File Type="OPT-TIMING" Name="Digit_Clock_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Digit_Clock_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Digit_Clock_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Digit_Clock_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Digit_Clock_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Digit_Clock.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Digit_Clock_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Digit_Clock_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Digit_Clock_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Digit_Clock_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Digit_Clock_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Digit_Clock_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Digit_Clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Digit_Clock_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Digit_Clock_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Digit_Clock_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Digit_Clock_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Digit_Clock_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Digit_Clock_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Digit_Clock.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Digit_Clock_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Digit_Clock_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Digit_Clock_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Digit_Clock.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Digit_Clock_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Digit_Clock_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Digit_Clock_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Digit_Clock_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Digit_Clock_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Digit_Clock_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Digit_Clock_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Digit_Clock.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Digit_Clock_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Digit_Clock_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Digit_Clock_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Digit_Clock_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Digit_Clock_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Digit_Clock_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Digit_Clock_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Digit_Clock_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Digit_Clock_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Digit_Clock_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Digit_Clock_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Digit_Clock_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Digit_Clock_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Digit_Clock_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Digit_Clock_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Digit_Clock_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Digit_Clock_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Digit_Clock_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Digit_Clock_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Digit_Clock_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Digit_Clock_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Digit_Clock.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Digit_Clock_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Digit_Clock.rbt"/>
+  <File Type="BITSTR-NKY" Name="Digit_Clock.nky"/>
+  <File Type="PDI-FILE" Name="Digit_Clock.pdi"/>
+  <File Type="RCFI_FILE" Name="Digit_Clock.rcfi"/>
+  <File Type="CFI_FILE" Name="Digit_Clock.cfi"/>
+  <File Type="RNPI_FILE" Name="Digit_Clock.rnpi"/>
+  <File Type="NPI_FILE" Name="Digit_Clock.npi"/>
+  <File Type="RBD_FILE" Name="Digit_Clock.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Seven_seg.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="Seven_seg.sysdef"/>
-  <File Type="BG-BGN" Name="Seven_seg.bgn"/>
-  <File Type="BG-DRC" Name="Seven_seg.drc"/>
-  <File Type="RDI-RDI" Name="Seven_seg.vdi"/>
+  <File Type="BITSTR-LTX" Name="Digit_Clock.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Digit_Clock.sysdef"/>
+  <File Type="BG-BGN" Name="Digit_Clock.bgn"/>
+  <File Type="BG-DRC" Name="Digit_Clock.drc"/>
+  <File Type="RDI-RDI" Name="Digit_Clock.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/7_SEG.vhd">
+    <File Path="$PSRCDIR/sources_1/new/bin2hex.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_div.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Digit_Clock.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -92,19 +104,19 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Seven_seg"/>
+      <Option Name="TopModule" Val="Digit_Clock"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/Const_7_SEG.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Digit_Clock.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/Const_7_SEG.xdc"/>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/Digit_Clock.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

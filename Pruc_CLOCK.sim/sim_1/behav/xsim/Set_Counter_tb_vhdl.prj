@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Pruc_CLOCK.srcs/sources_1/new/Counter.vhd" \
+"../../../../Pruc_CLOCK.srcs/sim_1/new/Set_Couter_tb.vhd" \
+
+# Do not sort compile order
+nosort

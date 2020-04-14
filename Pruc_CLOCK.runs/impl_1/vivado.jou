@@ -2,11 +2,11 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Apr  9 00:59:27 2020
-# Process ID: 2408
+# Start of session at: Tue Apr 14 17:54:39 2020
+# Process ID: 8180
 # Current directory: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/impl_1
-# Command line: vivado.exe -log Seven_seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Seven_seg.tcl -notrace
-# Log file: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/impl_1/Seven_seg.vdi
+# Command line: vivado.exe -log Digit_Clock.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Digit_Clock.tcl -notrace
+# Log file: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/impl_1/Digit_Clock.vdi
 # Journal file: D:/Vivado/Projects/Pruc_CLOCK/Pruc_CLOCK.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source Seven_seg.tcl -notrace
+source Digit_Clock.tcl -notrace
